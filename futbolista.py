@@ -18,7 +18,7 @@ class Futbolista(Persona, Deportista):
     def setGolesMarcados(self,goles):
         self._golesMarcados = goles
     
-    def getTarjerasRojas(self):
+    def getTarjetasRojas(self):
         return self._tarjerasRojas
     def setTarjetasRojas(self,tar):
         self._tarjetasRojas = tar
@@ -29,5 +29,5 @@ class Futbolista(Persona, Deportista):
         self._piernaHabil=pie
 
     def __str__(self):
-        return "Mi nombre es "+self._nombre+" soy profesional en el deporte "+self._deporte+" Tengo "+str(self._edad)+" años de edad y llevo "+str(self._anosPracticando)+" años en el deporte"
+        return "Mi nombre es "+self._nombre+" soy profesional en el deporte "+self._deporte+" Tengo "+str(self._edad)+" años de edad y llevo "+str(self._añosPracticando)+" años en el deporte"
     
